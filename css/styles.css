@@ -17,7 +17,31 @@ body {
   padding: 20px;
   border-radius: 10px;
   vertical-align: middle;
+  font-size: 27px;
 }
+
+/* ====================================================== */
+
+/* Nav Bar */
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  gap: 10px;
+  border: red;
+  margin-top: 50px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #f8cf8b;
+}
+
+/* ====================================================== */
 
 /* ABOUT US */
 .image {
@@ -26,11 +50,12 @@ body {
   padding-top: 110px;
   padding-left: 34px;
   padding-bottom: 20px;
-  /* max-width: 700px; */
   object-fit: cover;
 }
 
 .about-us-cont {
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 0 30px;
   display: flex;
   flex-wrap: wrap;
@@ -41,15 +66,22 @@ body {
   font-size: 21px;
 }
 
+.about-us {
+  color: #f8cf8b;
+}
+
 .About-us {
   flex: 1;
 }
 
+/* ====================================================== */
+
 /* MENU */
 .menu {
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
-  color: white;
+  padding-top: 10px;
+  color: #f8cf8b;
 }
 
 .menu-grid {
@@ -63,8 +95,10 @@ body {
 
 .menu-section {
   background-image: url(../images/menu\ background.jpg);
-  height: 640px;
+  height: 680px;
   background-position: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .espresso-desc,
@@ -107,6 +141,8 @@ img {
   width: 49%;
 }
 
+/* ====================================================== */
+
 /* CONTACT US */
 input[type="text"],
 select,
@@ -147,18 +183,21 @@ input[class="submit"]:hover {
 label[for="fname"],
 label[for="lname"],
 label[for="subject"] {
-  color: white;
+  color: #f8cf8b;
   font-size: 20px;
 }
 
 .contact-us {
-  color: white;
+  color: #f8cf8b;
+  font-size: 50px;
 }
 
 .contact-us-divider {
   padding: 50px;
   margin-top: -50px;
 }
+
+/* ====================================================== */
 
 /* Footer */
 .footer {
