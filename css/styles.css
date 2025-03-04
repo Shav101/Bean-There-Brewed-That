@@ -1,0 +1,205 @@
+.hero-section {
+  background-image: url(../images/background.webp);
+  height: 720px;
+  background-position: 50% 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: #3e2723;
+}
+
+.hero-text {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+/* ABOUT US */
+.image {
+  width: 500px;
+  border-radius: 25% 10%;
+  padding-top: 110px;
+  padding-left: 34px;
+  padding-bottom: 20px;
+  /* max-width: 700px; */
+  object-fit: cover;
+}
+
+.about-us-cont {
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  color: white;
+  font-size: 21px;
+}
+
+.About-us {
+  flex: 1;
+}
+
+/* MENU */
+.menu {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.menu-grid {
+  height: 100px;
+  display: grid;
+  gap: 10px;
+  grid-auto-flow: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.menu-section {
+  background-image: url(../images/menu\ background.jpg);
+  height: 640px;
+  background-position: center;
+}
+
+.espresso-desc,
+.cold-brew-desc,
+.pastry-desc {
+  font-size: 13px;
+  height: auto;
+  margin-top: -15px;
+  color: #c57f71;
+}
+
+.menu-grid-one,
+.menu-grid-two,
+.menu-grid-three {
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-top: -80px;
+  color: white;
+}
+.item p {
+  display: inline-block;
+  margin-bottom: -10px;
+}
+
+.flavor {
+  text-align: left;
+  width: 50%;
+}
+
+.price {
+  text-align: right;
+  width: 49%;
+}
+
+/* CONTACT US */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #3e2723;
+  color: white;
+}
+
+input[class="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[class="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+label[for="fname"],
+label[for="lname"],
+label[for="subject"] {
+  color: white;
+  font-size: 20px;
+}
+
+.contact-us {
+  color: white;
+}
+
+.contact-us-divider {
+  padding: 50px;
+  margin-top: -50px;
+}
+
+/* Footer */
+.footer {
+  background-image: url(../images/background.webp);
+  height: 220px;
+  background-position: 50% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.youtube {
+  font-size: 55px;
+  color: red;
+}
+
+.fa-linkedin {
+  font-size: 55px;
+  color: #0077b7;
+}
+
+.fa-facebook {
+  font-size: 55px;
+  color: #3b5998;
+}
+
+.fa-instagram {
+  font-size: 55px;
+  color: #e95a4b;
+}
