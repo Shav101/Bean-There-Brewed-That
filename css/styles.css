@@ -211,6 +211,12 @@ label[for="subject"] {
   margin-bottom: 70px;
 }
 
+.testimonial-header {
+  font-size: 50px;
+  color: #f8cf8b;
+  margin-left: 42px;
+}
+
 .testimonials {
   border: 2px solid #050000;
   border-radius: 5px;
